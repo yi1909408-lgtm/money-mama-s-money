@@ -1,4 +1,5 @@
 import appleStyle1 from "@/assets/apple_style1_warm_realistic.jpg";
+import oilStyle1 from "@/assets/oil_style1_warm_realistic.jpg";
 
 type ReelItem = {
   id: string;
@@ -25,6 +26,20 @@ const reels: ReelItem[] = [
     ],
     imageStyle: "따뜻한 실사 (Warm Realistic)",
     image: appleStyle1,
+  },
+  {
+    id: "oil-surge",
+    keyword: "유가 폭등 · 기름값 비상",
+    title: "주유소 갈 때마다 한숨? 유가 폭등의 진짜 이유",
+    hook: "언니, 주말에 주유하다가 깜짝 놀라셨죠? 가득 채우니 10만 원이 훌쩍… 이거 왜 이러는 걸까요?",
+    body: "중동에서 분쟁 소식이 들리면 전 세계 기름값이 출렁여요. 기름은 '경제의 혈액'이라, 비싸지면 택배비·배달비·마트 물건값까지 줄줄이 따라 올라요. 결국 차 안 타도 우리 지갑은 같이 가벼워지는 구조랍니다.",
+    summary: [
+      "중동 리스크 = 국제 유가 급등",
+      "기름값 → 물류비 → 장바구니 도미노",
+      "대중교통·묶음 외출로 지출 다이어트!",
+    ],
+    imageStyle: "따뜻한 실사 (Warm Realistic)",
+    image: oilStyle1,
   },
 ];
 
